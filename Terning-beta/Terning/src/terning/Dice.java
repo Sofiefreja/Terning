@@ -1,12 +1,12 @@
 package terning;
 // Klassen # Jonas
+import java.util.Random;
 public class Dice {
 	// roll the die and return the value (1-6)
 	public int roll() {
-		float d1=(float)Math.random();     // 0-1
-		float d2=d1*5;                     // 0-5
-		int d3=Math.round(d2);             // 0-5 integer
-		return d3 + 1;                     // 1-6		
+		Random dice = new Random(); //initialize the Random object "dice"
+		int res = dice.nextInt(6); //get a random integer between 1-6
+		return res; //return statement
 	}
 	
 	// roll the die n times and print the values
