@@ -1,5 +1,5 @@
 package terning;
-// Klassen # Jonas
+// Klassen # Jonas funkytown.
 public class Dice {
 	// roll the die and return the value (1-6)
 	public int roll() {
