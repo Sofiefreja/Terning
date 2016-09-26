@@ -17,7 +17,7 @@ public class UseDiceTest {
 		int six = 0;
 		int deft = 0;
 		
-		for(int i = 0; i < 1000; i++) {
+		for(int i = 0; i < 10000; i++) {
 		int n = cup.roll();
 			switch(n) {
 				case 1: 
