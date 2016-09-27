@@ -1,6 +1,7 @@
 package terning;
 // Klassen # Jonas funkytown silly.
 // XxXPussySlayer69XxX
+// Get me some god damn ice cream
 public class Dice {
 	// roll the die and return the value (1-6)
 	public int roll() {
